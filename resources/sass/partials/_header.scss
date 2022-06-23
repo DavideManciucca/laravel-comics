@@ -1,0 +1,38 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    div ul{
+    list-style: none;
+    display: flex;
+    .active{
+      color:blue;
+      border-bottom: 1px solid blue;
+    }
+    }
+    ul li a{
+      color: grey;
+      text-decoration: none;
+      padding: 10px;
+    }
+
+  }
+
+  .content{
+    height: 100px;
+    background-color: rgb(34, 33, 33);
+    color: white;
+  }
+  .banner{
+    display: flex;
+    height: 140px;
+    color:white;
+    background-color: #0c7cec;
+    justify-content: space-around;
+  }.ban-box{
+    display: flex;
+    align-items: center;
+  }.ban-box img{
+    height: 50px;
+  }
